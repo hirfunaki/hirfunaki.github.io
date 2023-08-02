@@ -17,7 +17,7 @@ function main() {
   
       // GLBファイルの読み込む
       
-      BABYLON.SceneLoader.Append("https://hirfunaki.github.io", "apple.glb", scene,
+      BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "apple.glb", scene,
      //BABYLON.SceneLoader.Append("https://ft-lab.github.io/gltf/apple/", "apple.glb", scene, 
         function (newMeshes) {
         
