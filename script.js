@@ -16,12 +16,12 @@ function main() {
       const light = new BABYLON.HemisphericLight();
 
         //AR化
- const xr = await scene.createDefaultXRExperienceAsync({
-   uiOptions: {
-     sessionMode: "immersive-ar",
-   },
-   optionalFeatures: true,
- });
+ //const xr = await scene.createDefaultXRExperienceAsync({
+  // uiOptions: {
+    // sessionMode: "immersive-ar",
+  // },
+  // optionalFeatures: true,
+ // });
 
 
 
@@ -29,8 +29,8 @@ function main() {
         
       // GLBファイルの読み込む
       
-      BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "a.glb", scene,
-     //BABYLON.SceneLoader.Append("https://ft-lab.github.io/gltf/apple/", "apple.glb", scene, 
+      //BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "a.glb", scene,
+     BABYLON.SceneLoader.Append("https://ft-lab.github.io/gltf/apple/", "apple.glb", scene, 
         function (newMeshes) {
         
           const mesh = scene.meshes[0];
