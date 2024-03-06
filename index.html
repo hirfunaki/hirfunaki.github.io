@@ -19,6 +19,16 @@
             touch-action: none;
         }
     </style>
+
+   const xr = await scene.createDefaultXRExperienceAsync({
+   uiOptions: {
+     sessionMode: "immersive-ar",
+   },
+   optionalFeatures: true,
+ });
+
+
+    
 </head>
 <body>
     // レンダリングするためのCanvas
