@@ -14,7 +14,19 @@ function main() {
   
       // 照明を追加
       const light = new BABYLON.HemisphericLight();
-  
+
+        //AR化
+ const xr = await scene.createDefaultXRExperienceAsync({
+   uiOptions: {
+     sessionMode: "immersive-ar",
+   },
+   optionalFeatures: true,
+ });
+
+
+
+
+        
       // GLBファイルの読み込む
       
       BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "a.glb", scene,
