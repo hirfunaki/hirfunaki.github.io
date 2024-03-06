@@ -31,6 +31,7 @@ function main() {
       
       BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "a.glb", scene,
      //BABYLON.SceneLoader.Append("https://ft-lab.github.io/gltf/apple/", "apple.glb", scene, 
+     //なぜかだめ？　再確認
      // BABYLON.SceneLoader.Append("https://hirfunaki.github.io/", "1class.glb", scene,
                                                            
         function (newMeshes) {
