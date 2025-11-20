@@ -16,12 +16,12 @@ function main() {
       const light = new BABYLON.HemisphericLight();
 
         //AR化
-// const xr = await scene.createDefaultXRExperienceAsync({
-  // uiOptions: {
-    // sessionMode: "immersive-ar",
-   //},
-   //optionalFeatures: true,
-  //});
+ const xr = await scene.createDefaultXRExperienceAsync({
+ uiOptions: {
+ sessionMode: "immersive-ar",
+},
+optionalFeatures: true,
+});
 
 
 
